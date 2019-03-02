@@ -8,6 +8,10 @@
 = Change Log =
 ==============
 
+ * v20190302    2019/03/02 dgkim@dgkim.net
+  * FEATURE     dgkim@dgkim.net    spring security applied
+  * FEATURE     dgkim@dgkim.net    basic internationalization applied.
+
  * v20190301-2  2019/03/01 dgkim@dgkim.net
   * FEATURE     dgkim@dgkim.net    spring datasource added
   * ENHANCEMENT dgkim@dgkim.net    maven profile added
