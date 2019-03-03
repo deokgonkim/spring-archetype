@@ -9,4 +9,16 @@
     <context:component-scan base-package="example">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
+    
+    <bean id="messageSource"
+          class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="defaultEncoding" value="UTF-8" />
+        <property name="basenames">
+            <list>
+                <value>classpath:/message/message-common</value>
+                <value>classpath:/message/message-pages</value>
+            </list>
+        </property>
+        <property name="cacheSeconds" value="0"/>
+    </bean>
 </beans>
