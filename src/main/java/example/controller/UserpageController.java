@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/userpage")
-@PreAuthorize("hasRole('ROLE_USER')")
+@PreAuthorize("isAuthenticated()")
 public class UserpageController {
 
     @RequestMapping("")
