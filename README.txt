@@ -8,6 +8,9 @@
 = Change Log =
 ==============
 
+ * v20190304    2019/03/04 dgkim@dgkim.net
+  * FEATURE     dgkim@dgkim.net    add support for JSON data api url
+
  * v20190303    2019/03/03 dgkim@dgkim.net
   * ENHANCEMENT dgkim@dgkim.net    implement spring security ldap
   * ENHANCEMENT dgkim@dgkim.net    logging enhancement
