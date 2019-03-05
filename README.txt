@@ -8,6 +8,9 @@
 = Change Log =
 ==============
 
+ * v20190305    2019/03/05 dgkim@dgkim.net
+  * FEATURE     dgkim@dgkim.net    add tiles framework
+
  * v20190304    2019/03/04 dgkim@dgkim.net
   * FEATURE     dgkim@dgkim.net    add support for JSON data api url
 
