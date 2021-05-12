@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <org.springframework.version>3.2.18.RELEASE</org.springframework.version>
         <org.apache.tiles.version>3.0.7</org.apache.tiles.version>
-        <org.springframework.security.version>3.2.10.RELEASE</org.springframework.security.version>
+        <org.springframework.security.version>5.2.10.RELEASE</org.springframework.security.version>
     </properties>
     <dependencies>
         <dependency>
